@@ -8,7 +8,7 @@ class Solution(object):
         """
         self.res = []
         out = []
-        sorted(candidates)
+        candidates.sort()
         self.can = candidates
         self.helper(target, 0 ,out)
         return self.res
@@ -34,7 +34,7 @@ class Solution(object):
         """
         self.res = []
         out = []
-        sorted(candidates)
+        candidates.sort()
         self.can = candidates
         self.helper(target, 0 ,out)
         return self.res
