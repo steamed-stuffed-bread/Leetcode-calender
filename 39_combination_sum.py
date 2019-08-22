@@ -1,4 +1,5 @@
 # medium
+# a[:] is a return False
 class Solution(object):
     def combinationSum(self, candidates, target):
         """

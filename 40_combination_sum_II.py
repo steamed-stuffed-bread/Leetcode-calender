@@ -19,6 +19,7 @@ class Solution(object):
             return
         else:
             for i in range(left, len(self.can)):
+                # every cycle uses non repeated value
                 if i > left and self.can[i] == self.can[i-1]:
                     continue
                 out.append(self.can[i])
