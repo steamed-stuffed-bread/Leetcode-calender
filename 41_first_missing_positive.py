@@ -7,6 +7,8 @@ class Solution(object):
         """
         n = len(nums)
         for i in range(n):
+            # as long as all the val be allocated according to the law that nums[i] == i+1
+            # and there is 1 in nums, the 1 should be at location 0 eventually
             while nums[i] <= n and nums[i] > 0 and nums[nums[i]-1] != nums[i]:
                 temp = nums[i]
                 nums[i] = nums[nums[i]-1]
