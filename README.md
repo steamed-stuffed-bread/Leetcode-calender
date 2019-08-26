@@ -1,5 +1,5 @@
 # Leetcode calender
-20190702 [14](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/14_longest_common_prefix.py)+[31](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/31_next_permutation.py)  
+20190702 [14.Longest Common Prefix](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/14_longest_common_prefix.py)+[31.Next Permutation](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/31_next_permutation.py)  
 20190703 645+33  
 20190704 20+36  
 20190706 191+235+144+98  
