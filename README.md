@@ -1,7 +1,7 @@
 # Leetcode calender
 20190702 [14.Longest Common Prefix](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/14_longest_common_prefix.py)+[31.Next Permutation](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/31_next_permutation.py)  
-20190703 645+33  
-20190704 20+36  
+20190703 [645.Set Mismatch](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/645_set_mismatch.py)+[33.Search in Rotated Sorted Array](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/33_search_in_rotated_sorted_array.py)  
+20190704 [20.Valid Parentheses](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/20_valid_parentheses.py)+[36.Valid Sudoku](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/36_valid_sudoku.py)  
 20190706 191+235+144+98  
 20190707 100+151  
 20190708 226+222  
@@ -36,4 +36,5 @@
 20190821 37+38  
 20190822 39+40  
 20190823 41+42  
-20190826 43+44
+20190826 43+44  
+20190827 53+62
