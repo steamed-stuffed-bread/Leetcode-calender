@@ -3,7 +3,7 @@
 20190703 [645.Set Mismatch](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/645_set_mismatch.py)+[33.Search in Rotated Sorted Array](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/33_search_in_rotated_sorted_array.py)  
 20190704 [20.Valid Parentheses](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/20_valid_parentheses.py)+[36.Valid Sudoku](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/36_valid_sudoku.py)  
 20190706 [191.Number of 1 Bits](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/191_number_of_1_bits.py)+[235.Lowest Common Ancestor of A Binary Search Tree](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/235_lowest_common_ancestor_of_a_binary_search_tree.py)+[144.Binary Tree Preorder Traversal](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/144_binary_tree_preorder_traversal.py)+[98.Valid Binary Search Tree](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/98_valid_binary_search_tree.py)  
-20190707 100+151  
+20190707 [100.Same Tree](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/100_same_tree.py)+[151.Reverse Words in a String](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/151_reverse_words_in_a_string.py)  
 20190708 226+222  
 20190709 538+310  
 20190710 617+662  
@@ -38,4 +38,4 @@
 20190823 41+42  
 20190826 43+44  
 20190827 53+62  
-20190828 63+
+20190828 63+64
