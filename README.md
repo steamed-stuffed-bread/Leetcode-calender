@@ -10,7 +10,7 @@
 20190711 [572.Subtree of another Tree](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/572_subtree_of_another_tree.py)+[654.Maximum Binary Tree](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/654_maximum_binary_tree.py)  
 20190712 [563.Binary Tree Tilt](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/563_binary_tree_tilt.py)+[655.Print Binary Tree](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/655_print_binary_tree.py)  
 20190713 [558.Quad Tree Intersection](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/558_quad_tree_intersection.py)+[114.Flatten Binary Tree to Linked List](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/114_flatten_binary_tree_to_linked_list.py)  
-20190714 543+199  
+20190714 [543.Diameter of Binary Tree](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/543_diameter_of_binary_tree.py)+[199.Binary Tree Rightside View](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/199_binary_tree_rightside_view.py)  
 20190715 290+567  
 20190716 415+396  
 20190717 566+525(modi)  
@@ -42,3 +42,4 @@
 20190829 70+72  
 20190903 85+87  
 20190904 91+97  
+20190905 96+  
