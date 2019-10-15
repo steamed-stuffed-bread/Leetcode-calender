@@ -13,7 +13,7 @@
 20190714 [543.Diameter of Binary Tree](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/543_diameter_of_binary_tree.py)+[199.Binary Tree Rightside View](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/199_binary_tree_rightside_view.py)  
 20190715 [290.Word Pattern](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/290_word_pattern.py)+[567.Permutation in String](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/567_permutation_in_string.py)  
 20190716 [415.Add Strings](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/415_add_strings.py)+[396.Rotation Function](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/396_rotation_function.py)  
-20190717 566+525(modi)  
+20190717 [566.Reshape the Matric](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/566_reshape_the_matric.py)+[525(modi).Contiguous Array](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/525_contiguous_array.py)  
 20190718 697+427  
 20190719 700+382  
 20190720 796+416  
