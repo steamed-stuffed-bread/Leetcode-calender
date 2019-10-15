@@ -42,7 +42,7 @@ class Solution:
             if (not temp.left and not temp.right) or temp.left == head or temp.right == head:
                 res.append(temp.val)
                 stack.pop()
-                head = temp
+                head = temp # key, head must be one of the left and right children
             else:
                 if temp.right:
                     stack.append(temp.right)
