@@ -13,12 +13,12 @@ class Solution(object):
             if nums[mid] == target:
                 return mid
             if nums[mid] < nums[right]:
-                if target > nums[mid] and target <= nums[right]:
+                if target > nums[mid] and target <= nums[right]: # right part is normal, deal as usual
                     left = mid + 1
                 else:
                     right = mid - 1
             else:
-                if target < nums[mid] and target >= nums[left]:
+                if target < nums[mid] and target >= nums[left]: # left part if normal, deal as usual
                     right = mid - 1
                 else:
                     left = mid + 1
