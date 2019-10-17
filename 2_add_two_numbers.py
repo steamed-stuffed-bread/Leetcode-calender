@@ -15,8 +15,8 @@ class Solution(object):
         cnt = 0
         res = ListNode(-1)
         node = res
-        while l1 or l2:
-            n1 = l1.val if l1 else 0
+        while l1 or l2: # run out of nodes left in l1 and l2
+            n1 = l1.val if l1 else 0 # take care of None nodes
             n2 = l2.val if l2 else 0
             val = (n1 + n2 + cnt) % 10
             cnt = (n1 + n2 + cnt) / 10
