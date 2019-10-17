@@ -20,6 +20,7 @@ class Solution(object):
             temp = pre.next.next
             pre.next.next = temp.next
             temp.next = pre.next
+            # build connection with previous nodes
             pre.next = temp
             pre = pre.next.next
         return dummy.next
