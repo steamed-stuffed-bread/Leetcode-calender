@@ -12,7 +12,7 @@ class Solution(object):
         :type n: int
         :rtype: ListNode
         """
-        if not head or not head.next:
+        if not head or not head.next: # when linked list only has one node or no node
             return None
         cur = head
         pre = head
@@ -20,10 +20,10 @@ class Solution(object):
         while i < n:
             i = i+1
             cur = cur.next
-            if not cur:
+            if not cur: # take care of case when n is larger than the length of the linked list
                 return head.next
         while cur.next:
             pre = pre.next
             cur = cur.next
-        pre.next = pre.next.next
+        pre.next = pre.next.next # cannot use cur.next, because that only works when n = 2
         return head
