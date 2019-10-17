@@ -17,7 +17,7 @@ class Solution(object):
         while n > 1:
             for i in range(n/2):
                 lists[i] = self.helper(lists[i], lists[i+(n+1)/2])
-            n = (n+1)/2
+            n = (n+1)/2 # make sure the previous step won't out of the list range, when n is even, +1 doesn't have impact, when it is odd, +1 will start with mid+1
         return lists[0]
     def helper(self, l1, l2):
         if not l1:
