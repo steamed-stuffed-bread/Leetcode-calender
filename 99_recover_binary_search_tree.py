@@ -21,7 +21,7 @@ class Solution:
     def helper(self, root):
         if root:
             self.helper(root.left)
-            if self.pre and (self.pre.val > root.val):
+            if self.pre and (self.pre.val > root.val): # normally, pre's value is compared before it is given a larger value
                 if not self.m1:
                     self.m1 = self.pre
                 self.m2 = root
