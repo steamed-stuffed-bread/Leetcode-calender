@@ -22,5 +22,7 @@ class Solution(object):
             return 0
         left = max(self.helper(root.left), 0)
         right = max(self.helper(root.right) , 0)
-        self.res = max(self.res, left+right+root.val)
+        # if it is not the root, it will return the max value of left and right
+        # the result will be calculated by the root node
+        self.res = max(self.res, left+right+root.val) 
         return max(left, right) + root.val
