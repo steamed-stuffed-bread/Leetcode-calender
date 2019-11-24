@@ -86,6 +86,8 @@ class Solution(object):
         dummy = Node(0)
         head = root
         cur = dummy
+        # cur = Node(0)
+        # dummy = cur     # dummy point to cur, when cur.next be given a value, dummy.next had a same value.
         while root:
             if root.left:
                 cur.next = root.left
