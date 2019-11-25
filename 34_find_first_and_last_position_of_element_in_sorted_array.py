@@ -30,3 +30,34 @@ class Solution(object):
                 res = [start, mid]
                 return res
         return res
+
+    
+    
+    class Solution(object):
+    def searchRange(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        left = 0
+        right = len(nums)-1
+        res = [-1,-1]
+        while left <= right:
+            mid = left + (right-left)/2
+            if nums[mid] < target:
+                left = mid+1
+            else:
+                right = mid-1
+        if right == len(nums)-1 or nums[right+1] != target:
+            return res
+        res[0] = right+1
+        right = len(nums)-1
+        while left <= right:
+            mid = left + (right-left)/2
+            if nums[mid] <= target:
+                left = mid+1
+            else:
+                right = mid-1
+        res[1] = right
+        return res
