@@ -6,20 +6,12 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        if len(nums) == 0:
-            return 0
         left = 0
         right = len(nums)-1
-        res = 0
         while left <= right:
             mid = left + (right-left)/2
-            if nums[mid] < target:
-                left = mid + 1
-            elif nums[mid] > target:
-                right = mid - 1
+            if target <= nums[mid]:
+                right = mid-1
             else:
-                res = mid
-                return res
-            if left > right and nums[right] < target:
-                res = left
-        return res
+                left = mid+1
+        return left
