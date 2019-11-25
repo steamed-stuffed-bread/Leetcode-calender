@@ -14,6 +14,9 @@ class Solution(object):
             mid = left + (right-left)/2
             if nums[mid] == target:
                 return True
+            # only when there is duplicate between mid and right, nums[mid] == nums[right], because in normal case,
+            # nums[mid] should be either larger than nums[right] when index < mid is normal
+            # or smaller than nums[right] when index > mid is normal
             if nums[mid] < nums[right]:
                 if target > nums[mid] and target <= nums[right]:
                     left = mid+1
