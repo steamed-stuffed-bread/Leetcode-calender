@@ -10,7 +10,7 @@ class Solution(object):
         n = len(nums)
         res = []
         for i in range(n-3):
-            if i>0 and nums[i] == nums[i-1]:
+            if i>0 and nums[i] == nums[i-1]: # skip the first element of the duplicated number
                 continue
             for j in range(i+1, n-2):
                 if j > i+1 and nums[j] == nums[j-1]:
