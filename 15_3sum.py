@@ -13,7 +13,7 @@ class Solution(object):
         for i in range(n):
             if nums[i] > 0:
                 break
-            if i > 0 and nums[i-1] == nums[i]:
+            if i > 0 and nums[i-1] == nums[i]:   # check the first repeated value, see repeat of the previous one
                 continue
             newt = 0 - nums[i]
             left = i + 1
@@ -21,9 +21,9 @@ class Solution(object):
             while left < right:
                 if (nums[left] + nums[right]) == newt:
                     res.append([nums[i], nums[left], nums[right]])
-                    while left < right and nums[left] == nums[left + 1]:
+                    while left < right and nums[left] == nums[left + 1]: # check the last repeat value, see repeat of the one behind
                         left = left + 1
-                    while left < right and nums[right] == nums[right - 1]:
+                    while left < right and nums[right] == nums[right - 1]: # inverse, check the last repeat value, see repest of the previous one
                         right = right - 1
                     left = left + 1
                     right = right - 1
