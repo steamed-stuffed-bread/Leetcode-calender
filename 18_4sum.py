@@ -1,4 +1,5 @@
 # medium
+# set or check the duplication of m and n
 class Solution(object):
     def fourSum(self, nums, target):
         """
