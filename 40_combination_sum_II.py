@@ -20,7 +20,7 @@ class Solution(object):
         else:
             for i in range(left, len(self.can)):
                 # every cycle uses non repeated value
-                if i > left and self.can[i] == self.can[i-1]:
+                if i > left and self.can[i] == self.can[i-1]:   # same position cannot use a number duplicately
                     continue
                 out.append(self.can[i])
                 self.helper(target-self.can[i], i+1, out)
