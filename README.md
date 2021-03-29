@@ -1,3 +1,5 @@
+# zjhj 折戟合集
+20200329 [LRU] (https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/zjhj_LRU.cpp)
 # Leetcode calender
 20190702 [14.Longest Common Prefix](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/14_longest_common_prefix.py)+[31.Next Permutation](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/31_next_permutation.py)  
 20190703 [645.Set Mismatch](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/645_set_mismatch.py)+[33.Search in Rotated Sorted Array](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/33_search_in_rotated_sorted_array.py)  
@@ -14,32 +16,3 @@
 20190715 [290.Word Pattern](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/290_word_pattern.py)+[567.Permutation in String](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/567_permutation_in_string.py)  
 20190716 [415.Add Strings](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/415_add_strings.py)+[396.Rotation Function](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/396_rotation_function.py)  
 20190717 [566.Reshape the Matric](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/566_reshape_the_matric.py)+[525(modi).Contiguous Array](https://github.com/steamed-stuffed-bread/Leetcode-calender/blob/master/525_contiguous_array.py)  
-20190718 697+427  
-20190719 700+382  
-20190720 796+416  
-20190721 704+221  
-20190722 1+2  
-20190723 3+4  
-20190724 5+6  
-20190725 7+8  
-20190726 9+10  
-20190727 11+12  
-20190729 13+14+15+16  
-20190730 17+18  
-20190731 19+21  
-20190813 22+23  
-20190814 24+25  
-20190815 26+27  
-20190816 28+29  
-20190819 30+32  
-20190820 34+35  
-20190821 37+38  
-20190822 39+40  
-20190823 41+42  
-20190826 43+44  
-20190827 53+62  
-20190828 63+64  
-20190829 70+72  
-20190903 85+87  
-20190904 91+97  
-20190905 96+95  
